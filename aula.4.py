@@ -22,9 +22,8 @@ numero2 = int(input("segundo numero: "))
 
 if (selecionador == 1):
     somar(numero1, numero2)
-else:
-    if (selecionador == 2):
-        multiplicar(numero1, numero2)
-    else:   
-     if (selecionador == 3):
-        divide(numero1, numero2)
+
+elif (selecionador == 2):
+    multiplicar(numero1, numero2)
+elif (selecionador == 3):
+    divide(numero1, numero2)
